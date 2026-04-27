@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khaled Ayman | Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Fira+Code:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start Navigation -->
+    <nav>
+      <div class="logo"><span>&lt;</span>dev<span>/&gt;</span></div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Start Hero Section -->
+    <section id="hero">
+      <div class="hero-text">
+        <p class="hero-tag">// Welcome to my portfolio</p>
+        <h1 class="hero-name">
+          I'm <span class="highlight">Khaled Ayman</span>
+        </h1>
+        <p class="hero-title" id="typed-title">
+          <span id="typed"></span><span class="cursor"></span>
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary">My Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="hero-img-wrap">
+        <div class="hero-img-glow"></div>
+        <div class="hero-img-frame">
+          <img
+            src="image/IMG-20251217-WA0067.jpg"
+            alt="Khaled Ayman"
+            class="hero-img"
+            onerror="this.style.display = 'none'"
+          />
+          <div class="hero-img-fallback">
+            <i class="fa-solid fa-user"></i>
+          </div>
+        </div>
+        <div class="hero-img-badge">
+          <span class="badge-dot"></span>Available for work
+        </div>
+
+      </div>
+    </section>
+    <!-- Start About Section -->
+    <section id="about">
+      <div class="sec-header reveal">
+        <span class="sec-num">01.</span>
+        <h2 class="sec-title">About Me</h2>
+        <div class="sec-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            Hello! I'm <span>Khaled Ayman</span>, a passionate web developer
+            dedicated to building beautiful and user-friendly digital
+            experiences.
+          </p>
+          <p>
+            I love turning ideas into <span>real products</span> that solve
+            actual problems, from the front-end to the server.
+          </p>
+          <p>
+            When I'm not coding, you'll find me learning new technologies or
+            contributing to
+            <span>open source projects</span>.
+          </p>
+          <div class="stat-row">
+            <div class="stat">
+              <div class="stat-num">+8</div>
+              <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">2</div>
+              <div class="stat-label">Years of Experience</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">+10</div>
+              <div class="stat-label">Technologies Used</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-card reveal">
+          <p
+            style="
+              font-family: &quot;Fira Code&quot;, monospace;
+              font-size: 0.8rem;
+              color: var(--text2);
+              margin-bottom: 1rem;
+            "
+          >
+            // about.json
+          </p>
+          <pre
+            style="
+              font-family: &quot;Fira Code&quot;, monospace;
+              font-size: 0.8rem;
+              color: var(--text2);
+              line-height: 1.9;
+              white-space: pre-wrap;
+            "
+          >{
+  <span style="color:#a78bfa">"name"</span>: <span style="color:#86efac">"Khaled Ayman"</span>,
+  <span style="color:#a78bfa">"role"</span>: <span style="color:#86efac">"Frontend developer"</span>,
+  <span style="color:#a78bfa">"location"</span>: <span style="color:#86efac">"Palestine 🇵🇸"</span>,
+  <span style="color:#a78bfa">"languages"</span>: [
+    <span style="color:#86efac">"Arabic"</span>, <span style="color:#86efac">"English"</span>
+  ],
+  <span style="color:#a78bfa">"available"</span>: <span style="color:#f9a8d4">true</span>
+}</pre>
+        </div>
+      </div>
+    </section>
+    <!-- Start Skills Section -->
+    <section id="skills">
+      <div class="sec-header reveal">
+        <span class="sec-num">02.</span>
+        <h2 class="sec-title">My Skills</h2>
+        <div class="sec-line"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fa-solid fa-code"></i></div>
+          <div class="skill-name">Frontend</div>
+          <div class="skill-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">React</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style="--w: 90%"></div>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fa-solid fa-gears"></i></div>
+          <div class="skill-name">Backend</div>
+          <div class="skill-tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Python</span>
+            <span class="tag">Express</span>
+            <span class="tag">REST API</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style="--w: 80%"></div>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+          <div class="skill-name">Databases</div>
+          <div class="skill-tags">
+            <span class="tag">MySQL</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">PostgreSQL</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style="--w: 75%"></div>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-icon">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+          </div>
+          <div class="skill-name">Tools & Systems</div>
+          <div class="skill-tags">
+            <span class="tag">Git</span>
+            <span class="tag">Linux</span>
+            <span class="tag">Docker</span>
+            <span class="tag">VS Code</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-bar-fill" style="--w: 85%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Start Projects Section -->
+    <section id="projects">
+      <div class="sec-header reveal">
+        <span class="sec-num">03.</span>
+        <h2 class="sec-title">Projects</h2>
+        <div class="sec-line"></div>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="#" class="project-link"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="project-name">E-Commerce Platform</div>
+          <div class="project-desc">
+            A full-stack e-commerce platform with a dashboard and payment
+            gateway integration.
+          </div>
+          <div class="skill-tags">
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">MongoDB</span>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon"><i class="fa-solid fa-comments"></i></div>
+            <div class="project-links">
+              <a href="#" class="project-link"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="#" class="project-link"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="project-name">Real-time Chat App</div>
+          <div class="project-desc">
+            Real-time messaging application built using WebSocket technology.
+          </div>
+          <div class="skill-tags">
+            <span class="tag">Socket.io</span>
+            <span class="tag">Express</span>
+            <span class="tag">React</span>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-header">
+            <div class="project-icon">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="#" class="project-link"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="project-name">Data Analytics Dashboard</div>
+          <div class="project-desc">
+            An interactive dashboard for visualizing and analyzing data
+            effectively.
+          </div>
+          <div class="skill-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Chart.js</span>
+            <span class="tag">Flask</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Start Contact Section -->
+    <section id="contact">
+      <div class="sec-header reveal">
+        <span class="sec-num">04.</span>
+        <h2 class="sec-title">Get In Touch</h2>
+        <div class="sec-line"></div>
+      </div>
+      <div class="contact-wrap">
+        <p class="reveal">
+          Have a project or an idea? I'd love to chat — send me a message and
+          I'll get back to you as soon as possible.
+        </p>
+        <form class="contact-form reveal" id="contact-form">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="email@example.com" required />
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea
+              placeholder="Write your message here..."
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" id="send-btn">
+            Send Message <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </form>
+        <div class="contact-socials reveal">
+          <a href="mailto:khaldalsbakhy9@gmail.com" class="social-link"
+            ><i class="fa-solid fa-envelope"></i> Email</a
+          >
+          <a
+            href="https://www.linkedin.com/in/khaled-alsibakhi/"
+            class="social-link"
+            ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
+          >
+          <a href="#" class="social-link"
+            ><i class="fa-brands fa-github"></i> GitHub</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Start Footer -->
+    <footer>
+      <p>
+        Built with <i class="fa-solid fa-heart" style="color: #ff4d4d"></i> by
+        <span>Khaled Ayman</span> — 2026
+      </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
